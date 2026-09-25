@@ -202,12 +202,14 @@ ul li a {
 }
 
 ul li a .btn-title {
+  display: block;
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
 ul li a .btn-subtitle {
+  display: block;
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 1.35;
