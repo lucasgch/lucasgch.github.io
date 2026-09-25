@@ -198,7 +198,10 @@ ul li a {
 
   text-decoration: none;
 
-  transition: background 0.2s, border 0.2s, transform 0.15s ease;
+  transition:
+    background 0.2s,
+    border 0.2s,
+    transform 0.15s ease;
 }
 
 ul li a .btn-title {
@@ -233,14 +236,13 @@ ul li a:hover .btn-subtitle {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  gap: 4px;
-  padding: 16px 0 24px;
-  width: 100%;
-
   flex-wrap: wrap;
-  transition: background 0.2s;
-  border-radius: 50%;
+
+  width: 75%;
+  max-width: 220px;
+  margin: 0 auto;
+  gap: 6px 12px;
+  padding: 16px 0 32px;
 }
 
 /* Aqui é onde você aumenta o ícone de fato */
@@ -256,7 +258,7 @@ ul li a:hover .btn-subtitle {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 8px;
 
   transition:
     background 0.2s,
