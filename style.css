@@ -6,6 +6,7 @@
 
 :root {
   --text-color: black;
+  --btn-title-color: #222222;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -16,6 +17,7 @@
 
 .dark {
   --text-color: white;
+  --btn-title-color: #ededed;
   --bg-url: url(./assets/bg-mobile-dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
@@ -209,6 +211,7 @@ ul li a .btn-title {
   font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.3;
+  color: var(--btn-title-color);
 }
 
 ul li a .btn-subtitle {
