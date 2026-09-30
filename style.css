@@ -120,16 +120,18 @@ body * {
 /* switch */
 #switch {
   position: relative;
-  width: 64px;
-  margin: 12px auto;
+  width: 48px;
+  margin: 8px auto;
+  cursor: pointer;
 }
 
 #switch button {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
 
   position: absolute;
   top: 50%;
@@ -145,13 +147,13 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--highlight-color);
+  outline: 6px solid var(--highlight-color);
 }
 
 #switch span {
   display: block;
-  width: 64px;
-  height: 24px;
+  width: 48px;
+  height: 18px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
